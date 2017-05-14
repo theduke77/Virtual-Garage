@@ -10,15 +10,10 @@ Torndeco for the EXT Database
 
 All i did was change a few variables to update it for 1.0.6.1
 
- 
-
-DOWNLOAD
-https://www.dropbox.com/s/ymwq3tm7dfhwjzy/Virtual Garage 1061.zip?dl=0
-
 I use the script a little different than intended.
 
 The only difference, i use vehicle and air traders to access the virtual garage, intended for use with garages, but requires gem crafting...
-The original instructions are in the download in case someone wants to do it that way
+The original instructions are in the download in case someone wants to do it that way. The file name is ORIGINAL_ReadMe.txt
 
 so on with the instructions..
 
