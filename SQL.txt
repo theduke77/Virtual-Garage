@@ -1,0 +1,17 @@
+CREATE DATABASE IF NOT EXISTS `extdb` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `extdb`;
+
+CREATE TABLE `garage` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `PlayerUID` varchar(20) NOT NULL DEFAULT '0',
+  `Classname` varchar(50) DEFAULT NULL,
+  `Datestamp` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
+  `CharacterID` int(11) unsigned NOT NULL DEFAULT '0',
+  `Inventory` mediumtext,
+  `Hitpoints` mediumtext,
+  `Fuel` double(13,5) NOT NULL DEFAULT '1.00000',
+  `Damage` double(13,5) NOT NULL DEFAULT '0.00000',
+  `Colour` varchar(50) NOT NULL,
+  `Colour2` varchar(50) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=315 DEFAULT CHARSET=latin1;
